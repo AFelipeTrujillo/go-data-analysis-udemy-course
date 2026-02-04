@@ -1,6 +1,8 @@
 package main
 
-import module3 "github.com/AFelipeTrujillo/go-data-analysis-udemy-course/module_3_gota"
+import (
+	module3 "github.com/AFelipeTrujillo/go-data-analysis-udemy-course/module_3_gota"
+)
 
 func main() {
 
@@ -8,5 +10,9 @@ func main() {
 	// module2.WriteData()
 	// module2.ValidateData()
 	// module3.CreateDataframe()
-	module3.ExploringData()
+	// module3.ExploringData()
+	// module3.SelectingData()
+	// module3.CombineFilters()
+	// module3.CreateColumns()
+	module3.WorkingWithNaN()
 }
